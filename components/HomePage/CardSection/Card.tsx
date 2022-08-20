@@ -10,15 +10,15 @@ interface IProps {
 
 const Card = ({ image, bgColor, title, text }: IProps) => {
   return (
-    <div className={`${bgColor ? bgColor : "bg-white"} py-24 px-6`}>
-      <div className="relative w-full h-60 mb-2">
+    <div className={`${bgColor ? bgColor : "bg-white"} px-6 pt-20 pb-10`}>
+      <div className="relative w-full h-72 mb-7">
         <Image src={image} layout="fill" />
       </div>
-      <div className="mb-4">
-        <h3 className="text-xl font-bold">{title}</h3>
+      <div className="mb-6">
+        <h3 className="text-xl text-dark-primary font-black">{title}</h3>
       </div>
       <div>
-        <p className="text-base text-gray-500">{text}</p>
+        <p className="text-base text-gray-600">{text}</p>
       </div>
     </div>
   );

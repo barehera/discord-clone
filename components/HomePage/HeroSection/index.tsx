@@ -9,7 +9,7 @@ const index = () => {
   return (
     <section className="bg-primary">
       <article className="px-6 pt-12">
-        <h1 className="text-white text-2xl font-black mb-6">
+        <h1 className="text-white text-4xl font-black mb-6">
           Öyle Bir Ortam Hayal Et Ki...
         </h1>
         <p className="text-white text-base mb-6">
@@ -18,9 +18,9 @@ const index = () => {
           geçirebileceği bir yer. Her gün konuşmayı ve daha sık takılmayı
           kolaylaştıran bir ortam.
         </p>
-        <div className="flex flex-col sm:flex-row gap-6 mb-10">
+        <div className="flex flex-col sm:flex-row gap-6 mb-20">
           <Button
-            icon={<AiOutlineDownload className="text-2xl" />}
+            icon={<AiOutlineDownload className="text-xl" />}
             text="Windows için indir"
             bgColor="bg-white"
             textColor="text-black"

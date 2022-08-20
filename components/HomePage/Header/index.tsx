@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "./Button";
-import Logo from "./Logo";
+import Logo from "../UI/Logo";
 import MenuIcon from "./MenuIcon";
 import Sidebar from "./Sidebar";
 

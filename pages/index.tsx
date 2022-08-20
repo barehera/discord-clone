@@ -4,6 +4,8 @@ import Head from "next/head";
 import Header from "components/HomePage/Header";
 import HeroSection from "components/HomePage/HeroSection";
 import CardSection from "components/HomePage/CardSection";
+import DownloadSection from "components/HomePage/DownloadSection";
+import Footer from "components/HomePage/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -16,7 +18,9 @@ const Home: NextPage = () => {
       <main>
         <HeroSection />
         <CardSection />
+        <DownloadSection />
       </main>
+      <Footer />
     </>
   );
 };
