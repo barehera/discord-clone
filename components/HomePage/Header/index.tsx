@@ -9,12 +9,12 @@ const index = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className=" bg-primary">
+    <header className=" bg-primary">
       <div className="lg:hidden">
         <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       </div>
 
-      <header className="p-6 h-20 flex items-center justify-between max-w-6xl mx-auto">
+      <div className="p-6 h-20 flex items-center justify-between max-w-6xl mx-auto">
         <Logo color="text-white" />
         <div className="hidden lg:block">
           <Navigation />
@@ -26,8 +26,8 @@ const index = () => {
             <MenuIcon />
           </div>
         </div>
-      </header>
-    </div>
+      </div>
+    </header>
   );
 };
 

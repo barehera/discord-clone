@@ -11,6 +11,9 @@ module.exports = {
         secondary: "#5865F2",
         "dark-primary": "#23272A",
       },
+      flex: {
+        2: "2 2 0%",
+      },
     },
   },
   plugins: [],

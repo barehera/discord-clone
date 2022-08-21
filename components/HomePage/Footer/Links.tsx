@@ -3,7 +3,7 @@ import FooterLink from "./FooterLink";
 
 const Links = () => {
   return (
-    <div className="grid grid-cols-2 gap-12 py-14 md:pt-0">
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 py-14 md:pt-0">
       <nav>
         <ul className="flex flex-col gap-2">
           <li className="text-secondary">Ürün</li>
