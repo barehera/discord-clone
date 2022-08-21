@@ -3,7 +3,7 @@ import NavItem from "./NavItem";
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className="py-3 flex-1">
       <ul>
         <NavItem text="Ana Sayfa" selected={true} />
         <NavItem text="İndir" selected={false} />

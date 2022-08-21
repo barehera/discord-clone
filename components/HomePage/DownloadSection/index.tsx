@@ -6,8 +6,8 @@ import sparkles from "assets/svg/sparkles.svg";
 import Button from "./Button";
 const index = () => {
   return (
-    <section className="px-6 py-12 bg-gray-100">
-      <h4 className="text-2xl text-dark-primary font-black tracking-tighter mb-6">
+    <section className="px-6 py-20 bg-gray-100">
+      <h4 className="text-2xl text-dark-primary font-black tracking-tighter mb-6 md:text-center md:text-4xl md:leading-8">
         HER ZAMAN YAKIN OLMAK IÇIN GÜVENILIR TEKNOLOJI
       </h4>
       <p className="text-base text-gray-600 mb-6">
@@ -15,15 +15,16 @@ const index = () => {
         hissettiriyor. Birbirinize videodan el sallayın, oyun yayını yapan
         arkadaşlarınızı izleyin veya ekran paylaşarak hep beraber çizim yapın.
       </p>
-      <div className="relative w-full h-72 mb-6">
+      <div className="relative w-full h-60 md:h-96 mb-6 md:mb-20">
         <Image src={downloadImage} layout="fill" />
       </div>
       <div className="relative text-3xl text-dark-primary font-bold mb-8">
-        <Image src={sparkles} layout="fill" />
-        <h4>Yolculuğuna başlamaya hazır mısın?</h4>
+        <img src={sparkles.src} className="w-full" />
+        <h4 className="md:text-center">Yolculuğuna başlamaya hazır mısın?</h4>
       </div>
-
-      <Button />
+      <div className="flex items-center justify-center">
+        <Button />
+      </div>
     </section>
   );
 };

@@ -7,13 +7,14 @@ import Icon3 from "assets/svg/card-icon-3.svg";
 
 const index = () => {
   return (
-    <section className="grid md:grid-cols-2 xl:grid-cols-3 py-4">
+    <section className="grid py-4">
       <Card
         image={Icon1}
         title="Sadece davet ile girilebilen, ait olduğun bir ortam oluştur"
         text="Discord sunucuları konulara göre kanallara ayrılır ve bu kanallarda grup konuşmasını işgal etmeden diğerleriyle birlikte çalışabilir, paylaşabilir veya yalnızca gününden bahsedebilirsin."
       />
       <Card
+        reverse={true}
         bgColor="bg-[#F6F6F6]"
         image={Icon2}
         title="Birlikte takılmak burada çok kolay"

@@ -7,12 +7,18 @@ import SocialMedia from "./SocialMedia";
 const index = () => {
   return (
     <footer className="px-6 bg-dark-primary pt-20 pb-16 text-white">
-      <h4 className="text-4xl font-black text-secondary tracking-tighter mb-6">
-        BIR ORTAM HAYAL ET
-      </h4>
-      <Languages />
-      <SocialMedia />
-      <Links />
+      <div className="grid md:grid-cols-2 md:gap-20">
+        <div>
+          <h4 className="text-4xl font-black text-secondary tracking-tighter mb-6">
+            BIR ORTAM HAYAL ET
+          </h4>
+          <Languages />
+          <SocialMedia />
+        </div>
+        <div>
+          <Links />
+        </div>
+      </div>
       <Bottom />
     </footer>
   );

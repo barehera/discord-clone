@@ -6,7 +6,7 @@ import Nav from "./Nav";
 
 const index = ({ sidebarOpen, setSidebarOpen }: any) => {
   const sidebarStyle = `${
-    sidebarOpen ? "w-8/12" : "w-0 opacity-0 invisible"
+    sidebarOpen ? "w-8/12 md:w-5/12" : "w-0 opacity-0 invisible"
   }  fixed right-0 top-0 bg-white rounded-l-lg h-screen p-6 transition-all duration-300 bg-white z-50`;
 
   return (
@@ -19,14 +19,11 @@ const index = ({ sidebarOpen, setSidebarOpen }: any) => {
             onClick={() => setSidebarOpen(false)}
           />
         </div>
-
-        <div className="py-3 flex-1">
+        <div>
           <Nav />
         </div>
 
-        <div>
-          <Button />
-        </div>
+        <Button />
       </div>
     </aside>
   );
