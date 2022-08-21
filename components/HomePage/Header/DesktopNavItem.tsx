@@ -5,7 +5,9 @@ interface IProps {
 }
 
 const DesktopNavItem = ({ text }: IProps) => {
-  return <li className="font-semibold">{text}</li>;
+  return (
+    <li className="font-semibold hover:underline cursor-pointer">{text}</li>
+  );
 };
 
 export default DesktopNavItem;
