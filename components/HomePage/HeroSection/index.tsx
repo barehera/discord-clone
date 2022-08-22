@@ -14,7 +14,7 @@ const index = () => {
           <h2 className="text-white text-4xl font-black mb-6 tracking-tighter md:text-7xl md:mb-12 lg:w-[40rem]">
             Öyle Bir Ortam Hayal Et Ki...
           </h2>
-          <p className="text-white text-base mb-6 md:mb-12 lg:w-[40rem]">
+          <p className="text-white text-base lg:text-lg mb-6 md:mb-12 lg:w-[45rem]">
             ...bir okul kulübünün, oyun grubunun veya dünya çapında bir sanat
             topluluğunun bir üyesi olabilirsin. Sadece sen ve arkadaşlarının
             vakit geçirebileceği bir yer. Her gün konuşmayı ve daha sık
