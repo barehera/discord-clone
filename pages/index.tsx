@@ -12,7 +12,17 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Discord | Konuşma Ve Vakit Geçirme Ortamınız</title>
+        <meta
+          name="description"
+          content="Discord clone created by Çağan Büyükavcılar"
+        ></meta>
+        <meta name="keywords" content="discord-clone"></meta>
+        <meta name="author" content="Çağan Büyükavcılar"></meta>
         <link rel="icon" href="/favicon.png" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
       </Head>
       <Header />
       <main>

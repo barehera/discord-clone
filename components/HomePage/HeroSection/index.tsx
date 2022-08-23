@@ -38,20 +38,22 @@ const index = () => {
           </div>
         </div>
       </article>
-      <div className="relative flex items-center justify-center  md:-mt-32 lg:mt-0 bg-primary w-full max-w-[2500px] mx-auto">
-        <img
-          src={heroSectionImage1.src}
-          className="mr-20 z-[3] md:mr-0 md:hidden lg:block lg:absolute lg:bottom-0 lg:-left-96  xl:-left-24 "
-          alt="hero-section image"
-        />
-        <img
-          src={heroSectionImage2.src}
-          className="hidden z-[3] md:block md:-mr-96 lg:mr-0 lg:absolute lg:bottom-0 lg:-right-[21.5rem] xl:-right-[4rem]"
-          alt="hero-section image"
-        />
+      <div className="relative flex items-center justify-center  md:-mt-32 lg:mt-0 bg-primary w-full  mx-auto">
+        <div className="relative lg:max-w-7xl lg:mx-auto w-full z-[3]">
+          <img
+            src={heroSectionImage1.src}
+            className="mr-20 md:mr-0 md:hidden lg:block lg:absolute lg:bottom-0 lg:-left-96"
+            alt="hero-section image"
+          />
+          <img
+            src={heroSectionImage2.src}
+            className="hidden md:block md:ml-96 md:h-96 lg:mr-0 lg:absolute lg:bottom-0 lg:-right-80 "
+            alt="hero-section image"
+          />
+        </div>
         <img
           src={heroSectionBackgroundImage.src}
-          className="hidden md:block absolute bottom-0 h-[42rem] object-cover z-[1]"
+          className="hidden md:block absolute bottom-0 h-[45rem] object-cover z-[1]"
           alt="hero-section image"
         />
       </div>
