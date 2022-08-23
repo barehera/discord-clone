@@ -6,9 +6,9 @@ interface IProps {
 
 const FooterLink = ({ text }: IProps) => {
   return (
-    <div className="text-white text-base cursor-pointer hover:underline">
+    <li className="text-white text-base cursor-pointer hover:underline">
       {text}
-    </div>
+    </li>
   );
 };
 
