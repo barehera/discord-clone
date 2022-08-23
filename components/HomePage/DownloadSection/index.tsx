@@ -16,12 +16,13 @@ const index = () => {
         arkadaşlarınızı izleyin veya ekran paylaşarak hep beraber çizim yapın.
       </p>
       <div className="relative w-full h-60 md:h-96 lg:h-[40rem] mb-6 md:mb-20">
-        <Image src={downloadImage} layout="fill" />
+        <Image src={downloadImage} layout="fill" alt="Download Image" />
       </div>
       <div className="relative text-3xl text-dark-primary font-bold mb-8">
         <img
           src={sparkles.src}
           className="w-full absolute -top-6 object-cover"
+          alt="sparkles icon"
         />
         <h4 className="md:text-center">Yolculuğuna başlamaya hazır mısın?</h4>
       </div>

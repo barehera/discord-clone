@@ -17,6 +17,7 @@ const Languages = () => {
         width="26px"
         height="16px"
         className="object-cover rounded-sm"
+        alt="Turkey Icon"
       />
       <p className="text-xs">Türkçe</p>
       <BsChevronCompactDown className="text-sm" />

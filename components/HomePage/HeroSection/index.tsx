@@ -42,14 +42,17 @@ const index = () => {
         <img
           src={heroSectionImage1.src}
           className="mr-20 z-[3] md:mr-0 md:hidden lg:block lg:absolute lg:bottom-0 lg:-left-96  xl:-left-24 "
+          alt="hero-section image"
         />
         <img
           src={heroSectionImage2.src}
           className="hidden z-[3] md:block md:-mr-96 lg:mr-0 lg:absolute lg:bottom-0 lg:-right-[21.5rem] xl:-right-[4rem]"
+          alt="hero-section image"
         />
         <img
           src={heroSectionBackgroundImage.src}
           className="hidden md:block absolute bottom-0 h-[42rem] object-cover z-[1]"
+          alt="hero-section image"
         />
       </div>
     </section>
