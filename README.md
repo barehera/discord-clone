@@ -1,3 +1,3 @@
 Clone of the Discord landing page made with Next.js with Tailwind CSS.
 
-Live Preview Link: https://barehera.vercel.app/discord-clone
+Live Preview Link:  https://discord-clone-barehera.vercel.app/
